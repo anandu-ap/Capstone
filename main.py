@@ -6,9 +6,9 @@ from frameExtractor import FrameExtractor
 
 if __name__ == "__main__":
     
-    video_path = "test/videos/Mayaanadhi.mkv" # Input video
-    output_directory = "test/output9" # output directory
-    num_frames = 20  # Total number of key frames to extract
+    video_path = input("Video file path : ") # Input video
+    output_directory = "output" # output directory
+    num_frames = int(input("Number of frames : "))  # Total number of key frames to extract
 
     # extracting the key frames from video
     fe = FrameExtractor()
