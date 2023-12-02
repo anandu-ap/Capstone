@@ -1,0 +1,17 @@
+Generates a video summary as a collage using key frames from the video.
+
+- it will first extract 'n' frames from the video
+- then create a collage layout
+- resize and arrange the frames inside the layout
+
+
+How to run ?
+--------------------
+Download the code
+open the folder in terminal
+run main.py using "python3 main.py"
+give the video file path and number of frames to be used as input
+
+What it will do ?
+---------------------
+create a folder named 'output' and save the final collage to the folder
